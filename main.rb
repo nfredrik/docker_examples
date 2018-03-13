@@ -1,8 +1,9 @@
- #!/usr/bin/env ruby 
+#!/usr/bin/env ruby 
 require 'rubygems'
- require 'rest-client'
+require 'rest-client'
 
-gem_name = ARGV[0]
+#gem_name = ARGV[0]
+gem_name = 'cucumber'
 
 raise ArgumentError.new("gem name missing") if gem_name.nil?
 

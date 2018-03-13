@@ -22,4 +22,5 @@ RUN bundle install
 
 COPY . /usr/app
 
-CMD ["/usr/app/main.rb ",  "cucumber"]
+#CMD ["/usr/app/main.rb ",  "cucumber"]
+CMD '/usr/app/main.rb' 
