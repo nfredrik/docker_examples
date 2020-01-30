@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    is_even (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  is_even!
+
+BUNDLED WITH
+   2.1.2
